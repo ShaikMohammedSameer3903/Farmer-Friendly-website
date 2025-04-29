@@ -32,3 +32,38 @@ To provide a **user-centric web application** for farmers and landowners that si
 - **Scheduling Tools:** Organize irrigation, planting, and harvesting tasks.
 - **Insights & Analytics:** Visual data reports to support farm decision-making.
 - **Mobile Friendly:** Accessible from smartphones, tablets, and desktops.
+
+- 🔙 Backend Development
+🔧 Technologies Used
+Spring Boot
+
+Java
+
+Spring Security
+
+Spring Data JPA
+
+MySQL
+
+Maven
+
+RESTful API Design
+
+🧠 Core Features
+User Authentication & Authorization: Role-based login for farmers and landowners with secure password hashing.
+
+Farmland Management: Create, update, and retrieve farmland details including geolocation and crop status.
+
+Crop CRUD Operations: Manage multiple crop types with status, planting date, and expected yield.
+
+Machinery & Resource Tracking: Track equipment, water, fertilizer, and chemical usage.
+
+Task Scheduling API: Backend support for scheduling activities like sowing, irrigation, and harvesting.
+
+Disease Reporting API: Store and access crop disease alerts with timestamps and farm-specific data.
+
+Weather API Integration: Backend handles real-time weather data requests and formatting.
+
+Analytics Endpoints: Aggregate data and generate summaries to help with farm decision-making.
+
+
