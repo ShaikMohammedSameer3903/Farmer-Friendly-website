@@ -69,7 +69,7 @@ const SignupFarmer = () => {
         }
 
         try {
-            const response = await fetch(`http://localhost:8080/farmer/addNew`, {
+            const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/farmer/addNew`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
